@@ -18,7 +18,7 @@ let package = Package(
             targets: ["TCANetworkReducers"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Incetro/TCA", .branch("main")),
+        .package(url: "https://github.com/Incetro/TCA", .branch("feature/swift-6-fork")),
         .package(url: "https://github.com/tristanhimmelman/ObjectMapper", exact: "4.2.0")
     ],
     targets: [
